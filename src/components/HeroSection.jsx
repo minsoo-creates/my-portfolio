@@ -5,15 +5,19 @@ export const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center px-4"
     >
       <div className="container max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
-        {/* Left: Text */}
+        {/* Left: Text */}{" "}
         <div className="text-center md:text-left space-y-6">
+          {" "}
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Hi, I'm <span className="text-primary ml-1">Minsoo</span> Ku
+            {" "}
+            Hi, I'm{" "}
+            <span className="text-primary ml-1"> Minsoo </span>{" "}
+            Ku{" "}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0">
             I am a Junior Computer Science student at the University of Maryland, College Park, who previously served in United Nations Peacekeeping Operations.
           </p>
-          <div className="pt-4 flex flex-wrap justify-center md:justify-start gap-4">
+          <div className="pt-4 flex flex-wrap justify gap-4">
             <a
               href="/images/Minsoo Ku Resume - cmsc.pdf"
               target="_blank"
@@ -22,6 +26,7 @@ export const HeroSection = () => {
             >
               View Resume
             </a>
+
             <a href="#projects" className="button-design">
               View My Work
             </a>
@@ -32,7 +37,7 @@ export const HeroSection = () => {
           <img
             src="/images/4DE3A417-6B52-4182-AA3F-FFC47D807BC3.jpeg"
             alt="Minsoo Ku"
-            className="hidden md:block w-[28rem] h-[28rem] object-cover shadow-lg rounded-md"
+            className="block w-[13rem] h-[13rem] md:w-[20rem] md:h-[20rem] lg:w-[28rem] lg:h-[28rem] object-cover shadow-lg rounded-md"
           />
         </div>
       </div>

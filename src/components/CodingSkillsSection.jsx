@@ -11,7 +11,7 @@ const skills = [
   },
   {
     name: "C",
-    description: "Programming Language",
+    description: "System Programming",
     category: "backend",
     icon: "/coding logos/c logo.svg",
   },
@@ -23,7 +23,7 @@ const skills = [
   },
   {
     name: "Ocaml",
-    description: "Programming Language",
+    description: "Functional Programming",
     category: "backend",
     icon: "/coding logos/ocaml logo.svg",
   },
@@ -43,31 +43,31 @@ const skills = [
   // Frontend / Frameworks
   {
     name: "React",
-    description: "Frontend Framework",
+    description: "Framework",
     category: "frontend",
     icon: "/coding logos/react logo.svg",
   },
   {
     name: "Flutter",
-    description: "Mobile Framework",
+    description: "Framework",
     category: "frontend",
     icon: "/coding logos/flutter logo.svg",
   },
   {
     name: "Tailwind CSS",
-    description: "CSS Framework",
+    description: "User Interface",
     category: "frontend",
     icon: "/coding logos/tailwind logo.svg",
   },
   {
     name: "HTML",
-    description: "Markup Language",
+    description: "User Interface",
     category: "frontend",
     icon: "/coding logos/html logo.svg",
   },
   {
     name: "CSS",
-    description: "Styling Language",
+    description: "User Interface",
     category: "frontend",
     icon: "/coding logos/css logo.svg",
   },
@@ -90,22 +90,22 @@ export const SkillsSection = () => {
         </h2>
 
         {/* Category buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category, key) => (
-            <button
-              key={key}
-              onClick={() => setActiveCategory(category)}
-              className={ClassName(
-                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-                activeCategory === category
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-foreground hover:bg-secondary/50"
-              )}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
+<div className="flex justify-center gap-2 md:gap-4 mb-12 overflow-x-auto">
+  {categories.map((category, key) => (
+    <button
+      key={key}
+      onClick={() => setActiveCategory(category)}
+      className={ClassName(
+        "flex-shrink-0 px-2 md:px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+        activeCategory === category
+          ? "bg-primary text-primary-foreground"
+          : "bg-secondary/70 text-foreground hover:bg-secondary/50"
+      )}
+    >
+      {category}
+    </button>
+  ))}
+</div>
 
         {/* Skills grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

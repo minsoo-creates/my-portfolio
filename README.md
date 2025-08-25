@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my journey as a Computer Science student, UN Peacekeeper, and developer. Built with React.js, featuring a clean design with dark/light mode toggle and interactive contact functionality.
 
-## 🌟 Live Demo
+## 🌟 Live Website
 
 Visit the live portfolio at: [https://minsooku.netlify.app]
 

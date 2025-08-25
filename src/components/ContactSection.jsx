@@ -94,7 +94,7 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Column: Contact Info */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-semibold mb-12">Contact Information</h3>
 
             <div className="space-y-6 justify-center">
               <div className="flex items-center space-x-4">
@@ -108,28 +108,6 @@ export const ContactSection = () => {
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     ku.minsoo0314@gmail.com
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-medium">Phone</h4>
-                  <a
-                    href="tel:+17036290964"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    🇺🇸 +1 (703) 629-0964
-                  </a>
-                  <br />
-                  <a
-                    href="tel:+8201021162919"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    🇰🇷 +82 (010) 2116-2919
                   </a>
                 </div>
               </div>

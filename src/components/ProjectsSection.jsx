@@ -15,7 +15,7 @@ const projects = [
     title: "Sociable AI Web Platform",
     description:
       "AI-powered project leveraging Python, HTML, CSS, and Figma to build a chatbot-driven social platform. Facilitated cross-team communication and pitched to school boards for funding.",
-    image: "/images/sociable_ai_logo.jpeg",
+    image: "/images/sociable website.png",
     tags: ["Python", "Web Dev", "Figma"],
     demoUrl: "https://sociable.how",
   },
