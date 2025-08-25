@@ -1,0 +1,5 @@
+# .gitignore
+.env
+
+# recommended to ignore node_modules
+node_modules
