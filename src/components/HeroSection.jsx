@@ -19,7 +19,7 @@ export const HeroSection = () => {
           </p>
           <div className="pt-4 flex flex-wrap justify gap-4">
             <a
-              href="/images/Minsoo Ku Resume (2025).pdf"
+              href="/images/Minsoo Ku resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="button-design bg-transparent text-primary border border-primary hover:bg-primary/10"
