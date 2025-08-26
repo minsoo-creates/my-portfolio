@@ -19,7 +19,18 @@ const projects = [
     tags: ["Python", "Web Dev", "Figma"],
     demoUrl: "https://sociable.how",
   },
+  {
+    id: 3,
+    title: "Personal Portfolio Website",
+    description:
+      "My personal developer portfolio showcasing skills, experiences, and projects. Built with React, TailwindCSS, and deployed on Netlify with a clean, responsive design.",
+    image: "/images/minsoo-memoji.png",
+    tags: ["React", "TailwindCSS", "Netlify"],
+    githubUrl: "https://github.com/minsoo-creates/my-portfolio",
+    demoUrl: "https://minsooku.netlify.app",
+  },
 ];
+
 
 export const ProjectsSection = () => {
   return (
