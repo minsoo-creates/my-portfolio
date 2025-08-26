@@ -44,7 +44,7 @@ export const WorkExperienceSection = () => {
     },
     {
       id: 3,
-      role: "Backend Developer",
+      role: "Software Engineering Intern",
       company: "Sociable AI",
       period: "Jan 2023 – Aug 2023",
       description:
