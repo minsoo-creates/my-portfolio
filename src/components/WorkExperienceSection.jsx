@@ -95,7 +95,7 @@ export const WorkExperienceSection = () => {
               className="p-6 bg-card rounded-lg shadow hover:shadow-lg transition-all"
             >
               <div className="flex items-start gap-4">
-                {/* Icon */}
+                {/* Icons for experiences */}
                 <div className="p-0 rounded-full bg-primary/10 flex-shrink-0 self-start w-12 h-12 overflow-hidden">
                   {exp.icon}
                 </div>
