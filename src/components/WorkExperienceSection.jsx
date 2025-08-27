@@ -48,12 +48,12 @@ export const WorkExperienceSection = () => {
       company: "Sociable AI",
       period: "Jan 2023 – Aug 2023",
       description:
-        "Developed chatbot-based web platform using Python, HTML, CSS, and Figma. Facilitated cross-functional communication between developers and management, and participated in funding discussions with school boards.",
-      skills: ["Python", "Notion", "Team Communication", "Pitching"],
+        "Developed and maintained a chatbot platform using TypeScript, React.js, TailwindCSS, and Python, integrating APIs like OpenAI and social platforms while improving performance through debugging and log analysis.",
+      skills: ["Python", "Notion", "React", "Pitching"],
       icon: (
         <img
           src="/images/sociable_ai_logo.jpeg"
-          alt="AI Startup"
+          alt="AI"
           className="w-full h-full object-cover"
         />
       ),
