@@ -6,7 +6,7 @@ export const WorkExperienceSection = () => {
       company: "United Nations Interim Forces in Lebanon (UNIFIL)",
       period: "Sep 2024 – May 2025",
       description:
-        "Provided English–Korean interpretation for multinational meetings, drafted operational back-briefs, coordinated plans, and received commendations from the ROK Ambassador and UNIFIL leadership.",
+        "Provided English–Korean interpretation for multinational meetings, drafted operational back-briefs, coordinated plans, and received commendations from the ROK Ambassador and the UN Medal from the UNSG.",
       skills: [
         "English-Korean Interpretation",
         "Operational Planning",
@@ -48,7 +48,7 @@ export const WorkExperienceSection = () => {
       company: "Sociable AI",
       period: "Jan 2023 – Aug 2023",
       description:
-        "Developed and maintained a chatbot platform using TypeScript, React.js, TailwindCSS, and Python, integrating APIs like OpenAI and social platforms while improving performance through debugging and log analysis.",
+        "Built and scaled a cross-platform chatbot service with TypeScript, React.js, TailwindCSS, and Python, integrating APIs (OpenAI, Instagram, X, Telegram) to expand functionality by 40% and optimizing performance through debugging and log analysis.",
       skills: ["Python", "Notion", "React", "Pitching"],
       icon: (
         <img

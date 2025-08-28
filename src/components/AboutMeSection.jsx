@@ -6,7 +6,7 @@ export const AboutMeSection = () => {
       icon: <Laptop className="h-8 w-8 text-primary" />,
       title: "Programming & Development",
       description:
-        "Advanced in Java, C, and intermediate Python & React. Experienced in building scalable software and web applications.",
+        "Strong in Java, C, Python, React and other languages. Experienced in building scalable software and web applications.",
     },
     {
       icon: <Users className="h-8 w-8 text-primary" />,
@@ -16,9 +16,9 @@ export const AboutMeSection = () => {
     },
     {
       icon: <Handshake className="h-8 w-8 text-primary" />,
-      title: "Project & Operational Management",
+      title: "Project & Management",
       description:
-        "Experienced in planning, organizing, and executing projects in academic, military, and startup environments.",
+        "Experienced in planning, organizing, and executing projects in academic, military, startup, and multicultural environments.",
     },
   ];
 
