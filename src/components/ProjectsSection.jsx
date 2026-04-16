@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, PlayCircle } from "lucide-react";
 
 const projects = [
   {
@@ -29,6 +29,16 @@ const projects = [
     githubUrl: "https://github.com/minsoo-creates/my-portfolio",
     demoUrl: "https://minsooku.netlify.app",
   },
+  {
+    id: 4,
+    title: "GhostDieDie",
+    description:
+      "A real-time multiplayer browser game controlled entirely by webcam, built with MediaPipe pose detection, React Three Fiber, WebSocket, and WebRTC. Reworked the vision pipeline from Python to JavaScript, optimized tracking from 33 to 13 key points for smoother performance, and won Best Razzle Dazzle Hack at Bitcamp 2026.",
+    image: "/images/GhostDieDie.png",
+    tags: ["React Three Fiber", "MediaPipe", "WebRTC", "Bitcamp 2026"],
+    demoUrl: "https://ghostdiedie.surf/",
+    videoUrl: "https://youtu.be/Ay273uz5BpE",
+  },
 ];
 
 
@@ -42,7 +52,7 @@ export const ProjectsSection = () => {
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Here are some of my personal and collaborative projects, showcasing
-          skills in software development, concurrency, and AI-driven
+          skills in software development, real-time systems, and AI-driven
           applications.
         </p>
 
@@ -81,15 +91,27 @@ export const ProjectsSection = () => {
                     <a
                       href={project.demoUrl}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
+                    </a>
+                  )}
+                  {project.videoUrl && (
+                    <a
+                      href={project.videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <PlayCircle size={20} />
                     </a>
                   )}
                   {project.githubUrl && (
                     <a
                       href={project.githubUrl}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
